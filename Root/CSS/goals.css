@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #151D21;
+}
+#nav-bar{
+    display: flex;
+    position: fixed;
+    left: 47%;
+    top: 5%;
+    font-size: 24px;
+    justify-content: center;
+    z-index: 1000;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(177, 177, 177);
+}
+a:active{
+    color: black;
+}
+.logo{
+    position:fixed;
+    right: 90%;
+}
+
+
+
+
+
+.content{
+    position: relative;
+    top: 50%;
+}
+
+.smpl-intro{
+    color: white;
+    font-size: 24px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+}
+.smpl-intro h1{
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    border-radius: 3px;
+    max-width: 80%;
+    box-shadow: 3px 5px black;
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+
+
+.goals-container{
+    font-style: italic;
+    margin-top: 30%;
+}
+.goals{
+    margin: auto;
+}
+.goals-h1{
+    font-size: 40px;
+    text-align: center;
+    background-color:cadetblue;
+    padding: 2em;
+}
+.goals-content{
+    background-color: #151D21;
+    padding: 4em;
+    text-align: center;
+    min-height: 800px;
+}
+
+
+
+
+
+#footer{
+    min-height: 200px;
+    margin-top: 3em;
+    background-color:cadetblue;
+}
+.contacts{
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.contacts-header{
+    padding: 25px;
+}
+#copyright{
+    text-align: center;
+    padding: 20px;
+}

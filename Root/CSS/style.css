@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #151D21;
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav-bar{
+    display: flex;
+    top: 5%;
+    left: 45%;
+    position: fixed;
+    font-size: 24px;
+    z-index: 1000;
+}
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(177, 177, 177);
+}
+a:active{
+    color: black;
+}
+.logo{
+    position:fixed;
+    right: 90%;
+}
+
+
+
+
+
+.content{
+    position: relative;
+    top: 50%;
+}
+.smpl-intro{
+    font-size: 24px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.smpl-intro h1{
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+}
+/* Figure out how to make rightlanephoto be a background image and fit it on the first section of the site.*/
+.img1{
+    border-radius: 3px;
+    max-width: 80%;
+    box-shadow: 3px 5px black;
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+
+
+
+#about{
+    font-style: italic;
+    background-color:cadetblue;
+    margin-top: 27%;
+
+}
+.intro{
+    padding: 4em;
+    max-width: 50%;
+    margin: auto;
+}
+.intro-h1{
+    font-size: 40px;
+    position: relative;
+    right: 5%;
+}
+.intro-h2{
+    font-size: 40px;
+}
+
+
+
+
+
+#project{
+    font-style: italic;
+    margin-top: 38%;
+    position: relative;
+}
+.project-div{
+    padding: 4em;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+.project-h1{
+    font-size: 40px;
+    text-align: center;
+}
+.project-content{
+    text-align: center;
+    padding: 4em;
+    color: white;
+}
+
+
+
+
+
+#footer{
+    min-height: 200px;
+    margin-top: 27%;
+    background-color:cadetblue;
+}
+.contacts{
+    text-align: center;
+    padding: 25px;
+    font-size: 24px;
+}
+.contacts-header{
+    padding: 25px;
+}
+#copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+/* Fix the problem with the width please :) might be the div or the max-width from the selectors that's messing it up for the body. FIXED 10-15-2023 */
+/* can also use justify-content: center to center everything. FIXED WITH MARGIN AUTO 10-15-2023 */
