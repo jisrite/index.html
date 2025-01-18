@@ -141,3 +141,57 @@ img{
 
 /* Fix the problem with the width please :) might be the div or the max-width from the selectors that's messing it up for the body. FIXED 10-15-2023 */
 /* can also use justify-content: center to center everything. FIXED WITH MARGIN AUTO 10-15-2023 */
+
+/* Major Breakpoints: Less than 600px, 601px (min) 768px, (min) 992px (min), and lastly everything ABOVE 1200px*/
+
+@media (max-width: 600px) {
+    #nav-bar{
+        display: flex;
+        top: 5%;
+        left: 40%;
+        position: fixed;
+        font-size: 24px;
+
+    }
+
+
+    .logo{
+        position:fixed;
+        right: 80%;
+    }
+
+
+    .smpl-intro{
+        font-size: 24px;
+        margin-top: 40%;
+    }
+
+    #about{
+        margin-top: 150%;
+        padding: 1em;
+    }
+    .intro{
+        padding: 4em;
+        max-width: 100%;
+    }
+    .intro-h1{
+        font-size: 40px;
+    }
+    .intro-h2{
+        font-size: 18px;
+    }
+
+
+    #project{
+        margin-top: 150%;
+    }
+    .project-div{
+        padding: 5em;
+    }
+    .project-h1{
+        font-size: 40px;
+    }
+    .project-content{
+        padding: 5em;
+    }
+}

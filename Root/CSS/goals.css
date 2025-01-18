@@ -105,3 +105,34 @@ img{
     text-align: center;
     padding: 20px;
 }
+
+@media (max-width: 600px){
+    #nav-bar{
+        display: flex;
+        top: 5%;
+        left: 40%;
+        position: fixed;
+        font-size: 24px;
+
+    }
+
+
+    .logo{
+        position:fixed;
+        right: 80%;
+    }
+
+
+    .smpl-intro{
+        font-size: 24px;
+        margin-top: 40%;
+    }
+
+
+    .goals-container{
+        margin-top: 100%;
+    }
+    .goals-content{
+        color: white;
+    }
+}
