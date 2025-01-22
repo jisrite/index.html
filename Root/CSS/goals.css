@@ -72,22 +72,44 @@ img{
     margin: auto;
 }
 .goals-h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     background-color:cadetblue;
     padding: 2em;
+
+}
+#goals-intro{
+    padding:2em;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    max-width:46%;
+    margin:auto;
 }
 .goals-content{
     background-color: #151D21;
     padding: 4em;
     text-align: center;
     min-height: 800px;
+    color: white;
 }
 
+.h1-goals{
+    padding-right: 41em;
+    font-size: 30px;
+}
 
-
-
-
+li{
+    padding: 1em; 
+    position: relative;
+    left: 27%;
+}
+ul{
+    list-style-position:inside;
+    list-style-type:disc;
+    text-align: left;
+    font-size: 24px;
+}
 #footer{
     min-height: 200px;
     margin-top: 3em;
