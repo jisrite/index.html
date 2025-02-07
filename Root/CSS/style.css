@@ -7,21 +7,21 @@ html{
 }
 body{
     background-color: #151D21;
-    max-width: 100%;
     font-family: 'Times New Roman', Times, serif;
+    overflow-x:hidden;
 }
 #nav-bar{
     display: flex;
     top: 5%;
-    left: 45%;
+    left: 46%;
     position: fixed;
-    font-size: 24px;
     z-index: 1000;
 }
 a{
-    padding-left: 10px;
+    padding-left: 30px;
     text-decoration: none;
     color: white;
+    font-size: 40px;
 }
 a:hover{
     color: rgb(177, 177, 177);
@@ -41,31 +41,30 @@ a:active{
 .content{
     position: relative;
     top: 50%;
+    margin: auto;
 }
+
 .smpl-intro{
-    font-size: 24px;
-    max-width: 500px;
+    color: white;
+    font-size: 33px;
     margin: auto;
     margin-top: 10%;
     text-align: center;
     position: relative;
-    color: white;
 }
 .smpl-intro h1{
     padding: 10px;
     margin: 10px;
 }
 img{
-    width: 100%;
-}
-/* Figure out how to make rightlanephoto be a background image and fit it on the first section of the site.*/
-.img1{
+    max-width: 100%;
     border-radius: 3px;
-    max-width: 80%;
     box-shadow: 3px 5px black;
     position: relative;
     bottom: 25px;
+    
 }
+
 
 
 
@@ -84,12 +83,12 @@ img{
     margin: auto;
 }
 .intro-h1{
-    font-size: 40px;
+    font-size: 55px;
     position: relative;
     right: 5%;
 }
 .intro-h2{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 
@@ -102,19 +101,20 @@ img{
     position: relative;
 }
 .project-div{
-    padding: 4em;
+    padding: 6em;
     margin: auto;
     background-color: cadetblue;
 }
 
 .project-h1{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 .project-content{
     text-align: center;
     padding: 4em;
     color: white;
+    font-size: 50px;
 }
 
 
@@ -128,15 +128,15 @@ img{
 }
 .contacts{
     text-align: center;
-    padding: 25px;
-    font-size: 24px;
+    font-size: 50px;
 }
 .contacts-header{
     padding: 25px;
 }
 #copyright{
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    font-size: 30px;
 }
 
 /* Fix the problem with the width please :) might be the div or the max-width from the selectors that's messing it up for the body. FIXED 10-15-2023 */
@@ -146,15 +146,17 @@ img{
 
 @media (max-width: 600px) {
     #nav-bar{
-        display: flex;
         top: 5%;
-        left: 40%;
+        left: 35%;
         position: fixed;
-        font-size: 24px;
-
     }
-
-
+    a{
+        font-size: 24px;
+        padding-left: 12px;
+    }
+    img{
+       max-width: 300px;
+    }
     .logo{
         position:fixed;
         right: 80%;
@@ -189,9 +191,16 @@ img{
         padding: 5em;
     }
     .project-h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .project-content{
-        padding: 5em;
+        font-size: 32px;
+    }
+    .contacts{
+        font-size: 25px;
+    }
+    #copyright{
+        font-size: 22px;
+        padding: 40px;
     }
 }

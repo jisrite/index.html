@@ -2,16 +2,18 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: #151D21;
+    overflow-x:hidden; /*fixed width overflow with overflow-x:hidden!!
+    use it more often whenever you create another website!!*/
+
 }
 #nav-bar{
     display: flex;
     position: fixed;
     left: 47%;
     top: 5%;
-    font-size: 24px;
-    justify-content: center;
     z-index: 1000;
 }
 a{
@@ -37,12 +39,12 @@ a:active{
 .content{
     position: relative;
     top: 50%;
+    margin: auto;
 }
 
 .smpl-intro{
     color: white;
-    font-size: 24px;
-    max-width: 500px;
+    font-size: 33px;
     margin: auto;
     margin-top: 10%;
     text-align: center;
@@ -53,11 +55,12 @@ a:active{
     margin: 10px;
 }
 img{
+    max-width: 110%;
     border-radius: 3px;
-    max-width: 80%;
     box-shadow: 3px 5px black;
     position: relative;
     bottom: 25px;
+    
 }
 
 
@@ -72,7 +75,7 @@ img{
     margin: auto;
 }
 .goals-h1{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     background-color:cadetblue;
     padding: 2em;
@@ -80,7 +83,7 @@ img{
 }
 #goals-intro{
     padding:2em;
-    font-size: 24px;
+    font-size: 44px;
     color: white;
     text-align: left;
     max-width:46%;
@@ -90,13 +93,13 @@ img{
     background-color: #151D21;
     padding: 4em;
     text-align: center;
-    min-height: 800px;
     color: white;
 }
 
 .h1-goals{
-    padding-right: 41em;
-    font-size: 30px;
+    position: relative;
+    right: 24em;
+    font-size: 40px;
 }
 
 li{
@@ -108,24 +111,24 @@ ul{
     list-style-position:inside;
     list-style-type:disc;
     text-align: left;
-    font-size: 24px;
+    font-size: 40px;
 }
 #footer{
     min-height: 200px;
-    margin-top: 3em;
+    margin-top: 27%;
     background-color:cadetblue;
 }
 .contacts{
     text-align: center;
-    padding: 20px;
-    font-size: 24px;
+    font-size: 40px;
 }
 .contacts-header{
     padding: 25px;
 }
 #copyright{
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    font-size: 30px;
 }
 
 @media (max-width: 600px){
@@ -134,16 +137,15 @@ ul{
         top: 5%;
         left: 40%;
         position: fixed;
-        font-size: 24px;
-
     }
-
-
     .logo{
         position:fixed;
-        right: 80%;
+        right: 70%;
     }
 
+    img{
+        max-width: 300px;
+     }
 
     .smpl-intro{
         font-size: 24px;
@@ -154,7 +156,33 @@ ul{
     .goals-container{
         margin-top: 100%;
     }
+    #goals-intro{
+        font-size: 20px;
+        max-width: 75%;
+    }
     .goals-content{
         color: white;
+    }
+    .h1-goals{
+        right: 4em;
+        font-size: 24px;
+    }
+    li{
+        padding: 1em; 
+        position: relative;
+        left: 5%;
+    }
+    ul{
+        list-style-position:inside;
+        list-style-type:disc;
+        text-align: left;
+        font-size: 24px;
+    }
+    .contacts{
+        font-size: 25px;
+    }
+    #copyright{
+        font-size: 22px;
+        padding: 40px;
     }
 }
