@@ -144,7 +144,7 @@ img{
 
 /* Major Breakpoints: Less than 600px, 601px (min) 768px, (min) 992px (min), and lastly everything ABOVE 1200px*/
 
-@media (max-width: 600px) {
+@media (max-width: 1080px) {
     #nav-bar{
         top: 5%;
         left: 35%;
